@@ -1,0 +1,23 @@
+{
+  "name": "nagios-couchbase-monitor",
+  "version": "1.0.0",
+  "description": "The plugin for nagios to monitor Couchbase.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "nagios-solr-monitor": "./lib/index.js"
+  },
+  "author": "Richard Adleta",
+  "license": "BSD",
+  "dependencies": {
+    "moment": "~2.13.0",
+    "lodash": "~4.11.2",
+    "request": "~2.72.0",
+    "nagios-plugin": "~0.1.2",
+    "node-getopt": "~0.2.3",
+    "commander": "~2.9.0",
+    "numeral": "~1.5.3"
+  }
+}
