@@ -10,14 +10,14 @@
     "nagios-solr-monitor": "./lib/index.js"
   },
   "author": "Richard Adleta",
-  "license": "BSD",
+  "license": "MIT",
   "dependencies": {
-    "moment": "~2.13.0",
-    "lodash": "~4.11.2",
-    "request": "~2.72.0",
+    "commander": "~2.9.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
     "nagios-plugin": "~0.1.2",
     "node-getopt": "~0.2.3",
-    "commander": "~2.9.0",
-    "numeral": "~1.5.3"
+    "numeral": "~1.5.3",
+    "request": "^2.88.0"
   }
 }
